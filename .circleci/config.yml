@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:10.15-stretch-browsers
-    working_directory: ~/SalesforceGit
+    working_directory: ~/Lightning-Design-System
     steps:
       - checkout
       - run:
